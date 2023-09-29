@@ -1,26 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AirbenB</title>
-    <link href="css code.css" rel="stylesheet" \>
-    
+    <link rel="stylesheet" href="styles.css">
+    <title>AirBeanB - Aluguel de Plantas</title>
 </head>
-    
 <body>
-     <header>
-        <div class="center">
-            <div class="logo"><img src ="img/foto6.jpg"\ width="300px" height="100px"></div><!--logo-->
-            <div class="menu">
-                <a href="#">Home<a\>
-                <a href="#">Sobre<a\></a>
-                <a href="#">Oque a de novo<a\>
-                <a href="#">Entre em contato</a>    
-            </div><!--menu-->
-        </div><!--centro-->
+    <header>
+        <h1>Conheça a AirBeanB</h1>
     </header>
-    <div class="fundoimg"><img src="img/foto1.jpg" width="800px" height="600px" ></div><!--fundo a direita-->
-      
+
+    <nav>
+        <ul>
+            <li><a href="#quem-somos">Quem Somos</a></li>
+            <li><a href="#produtos">Nossos Produtos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#time">Nosso Time</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="quem-somos">
+            <h2>Quem Somos</h2>
+            <p>A AirBeanB é a plataforma líder em aluguel de plantas domésticas. Oferecemos uma variedade de plantas para transformar seu espaço em um oásis verde. Com guias de cuidados detalhados e acessórios incluídos, tornamos a jardinagem fácil e acessível para todos.</p>
+        </section>
+
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <table>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Descrição</th>
+                </tr>
+                <tr>
+                    <td>Planta de Interior</td>
+                    <td>R$ 20/mês</td>
+                    <td>Perfeita para espaços internos.</td>
+                </tr>
+                <tr>
+                    <td>Planta de Jardim</td>
+                    <td>R$ 30/mês</td>
+                    <td>Transforme seu jardim em um paraíso.</td>
+                </tr>
+                <tr>
+                    <td>Planta Exótica</td>
+                    <td>R$ 40/mês</td>
+                    <td>Adicione um toque único à sua decoração.</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="time">
+            <h2>Nosso Time</h2>
+            <ul>
+                <li>Diretor Executivo - João Silva</li>
+                <li>Designer de Plantas - Maria Santos</li>
+                <li>Especialista em Cuidados - Carlos Souza</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <section id="faq">
+            <h2>FAQ/Perguntas Frequentes</h2>
+            <ul>
+                <li>
+                    <h3>Como faço para alugar uma planta?</h3>
+                    <p>É simples! Basta escolher o produto desejado na seção "Nossos Produtos" e preencher o formulário de contato na seção "Contato".</p>
+                </li>
+                <li>
+                    <h3>Qual é o período mínimo de aluguel?</h3>
+                    <p>O período mínimo de aluguel é de 1 mês.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="redes-sociais">
+            <h2>Siga-nos nas Redes Sociais</h2>
+            <a href="#" class="social-icon" target="_blank">
+                <img src="twitter.png" alt="Twitter">
+            </a>
+            <a href="#" class="social-icon" target="_blank">
+                <img src="facebook.png" alt="Facebook">
+            </a>
+            <a href="#" class="social-icon" target="_blank">
+                <img src="instagram.png" alt="Instagram">
+            </a>
+        </section>
+    </footer>
 </body>
 </html>
