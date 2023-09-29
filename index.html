@@ -1,26 +1,566 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AirbenB</title>
-    <link href="css code.css" rel="stylesheet" \>
-    
-</head>
-    
-<body>
-     <header>
-        <div class="center">
-            <div class="logo"><img src ="img/foto6.jpg"\ width="300px" height="100px"></div><!--logo-->
-            <div class="menu">
-                <a href="#">Home<a\>
-                <a href="#">Sobre<a\></a>
-                <a href="#">Oque a de novo<a\>
-                <a href="#">Entre em contato</a>    
-            </div><!--menu-->
-        </div><!--centro-->
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>AirBeanB - Aluguel de Plantas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="social">
+        <img src="assets/icons/whatsapp.svg" height="20" alt="Icone Whatsapp" />
+        <img src="assets/icons/instagram.svg" height="20" alt="Icone Whatsapp" />
+        <img src="assets/icons/facebook.svg" height="20" alt="Icone Whatsapp" />
+      </div>
+      <nav id="nav-bar">
+        <div class="menu">
+          <img src="assets/icons/logo.svg" alt="Logo AirBeanB" />
+          <div class="menu-items">
+            <div>
+              <img src="/assets/icons/location.svg" alt="" />
+              <div>
+                <h1>Localizar lojas próximas</h1>
+                <p>Loja</p>
+              </div>
+            </div>
+            <div>
+              <img src="assets/icons/search.svg" alt="" />
+              <div>
+                <h1>O que está procurando?</h1>
+                <p>Pesquisa rápida</p>
+              </div>
+            </div>
+            <div>
+              <img src="assets/icons/profile.svg" alt="" />
+              <div>
+                <h1>Olá, Seja Bem-vindo</h1>
+                <p>Faça login</p>
+              </div>
+            </div>
+            <div>
+              <img src="assets/icons/cart.svg" alt="" />
+              <div>
+                <h1>Seu carrinho</h1>
+                <p>(0)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navigation">
+          <li>
+            <ul>
+              <li><a href="#start">Início</a></li>
+              <li><a href="#products">Produtos</a></li>
+              <li><a href="#contact">Contato</a></li>
+              <li><a href="#who-we-are">Quem somos</a></li>
+              <li><a href="#our-team">Nosso time</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </li>
+        </div>
+      </nav>
     </header>
-    <div class="fundoimg"><img src="img/foto1.jpg" width="800px" height="600px" ></div><!--fundo a direita-->
-      
-</body>
+    <main id="main">
+      <section id="start" class="start">
+        <h1>Alugue plantas sem sair de casa</h1>
+        <img src="assets/images/banner.jpg" height="765px" alt="" />
+      </section>
+      <section id="who-we-are" class="who-we-are">
+        <h1>Quem somos</h1>
+        <p>
+          A AirBeanB é uma plataforma revolucionária para os amantes de plantas que desejam transformar seus espaços com um toque de verde, sem o
+          compromisso de compra a longo prazo. Nossa missão é proporcionar uma experiência única aos amantes das plantas, oferecendo a oportunidade de
+          alugar uma variedade de plantas domésticas de forma conveniente e acessível.
+        </p>
+      </section>
+      <section id="products" class="products">
+        <h1>Nossos produtos</h1>
+        <div class="products-container">
+          <h1>Vida longa</h1>
+          <div>
+            <div class="plant-card">
+              <img src="assets/images/plants/espada-de-sao-jorge.jpg" height="256px" alt="Planta Espada-de-são-jorge" />
+              <div class="details">
+                <div class="guia-list">
+                  <h3>Espada-de-são-jorge</h3>
+                  <div>
+                    <img src="assets/icons/sun-bold.svg" alt="Icone Sol" />
+                    <div>
+                      <p>Iluminação</p>
+                      <p>Sol parcial</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/outline-water-drop.svg" alt="Icone Gota D'água" />
+                    <div>
+                      <p>Regar</p>
+                      <p>A cada 3 semanas</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/temp-cold-line.svg" alt="Icone Termometro" />
+                    <div>
+                      <p>Temperatura</p>
+                      <p>15 a 30 ºC</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/plant.svg" alt="Icone Planta" />
+                    <div>
+                      <p>Transplante</p>
+                      <p>1-2 pés</p>
+                    </div>
+                  </div>
+                </div>
+                <button>Alugar R$43.00/mês</button>
+              </div>
+            </div>
+            <div class="plant-card">
+              <img src="assets/images/plants/espada-de-sao-jorge.jpg" height="256px" alt="Planta Espada-de-são-jorge" />
+              <div class="details">
+                <div class="guia-list">
+                  <h3>Espada-de-são-jorge</h3>
+                  <div>
+                    <img src="assets/icons/sun-bold.svg" alt="Icone Sol" />
+                    <div>
+                      <p>Iluminação</p>
+                      <p>Sol parcial</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/outline-water-drop.svg" alt="Icone Gota D'água" />
+                    <div>
+                      <p>Regar</p>
+                      <p>A cada 3 semanas</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/temp-cold-line.svg" alt="Icone Termometro" />
+                    <div>
+                      <p>Temperatura</p>
+                      <p>15 a 30 ºC</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/plant.svg" alt="Icone Planta" />
+                    <div>
+                      <p>Transplante</p>
+                      <p>1-2 pés</p>
+                    </div>
+                  </div>
+                </div>
+                <button>Alugar R$43.00/mês</button>
+              </div>
+            </div>
+            <div class="plant-card">
+              <img src="assets/images/plants/espada-de-sao-jorge.jpg" height="256px" alt="Planta Espada-de-são-jorge" />
+              <div class="details">
+                <div class="guia-list">
+                  <h3>Espada-de-são-jorge</h3>
+                  <div>
+                    <img src="assets/icons/sun-bold.svg" alt="Icone Sol" />
+                    <div>
+                      <p>Iluminação</p>
+                      <p>Sol parcial</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/outline-water-drop.svg" alt="Icone Gota D'água" />
+                    <div>
+                      <p>Regar</p>
+                      <p>A cada 3 semanas</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/temp-cold-line.svg" alt="Icone Termometro" />
+                    <div>
+                      <p>Temperatura</p>
+                      <p>15 a 30 ºC</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/plant.svg" alt="Icone Planta" />
+                    <div>
+                      <p>Transplante</p>
+                      <p>1-2 pés</p>
+                    </div>
+                  </div>
+                </div>
+                <button>Alugar R$43.00/mês</button>
+              </div>
+            </div>
+            <div class="plant-card">
+              <img src="assets/images/plants/espada-de-sao-jorge.jpg" height="256px" alt="Planta Espada-de-são-jorge" />
+              <div class="details">
+                <div class="guia-list">
+                  <h3>Espada-de-são-jorge</h3>
+                  <div>
+                    <img src="assets/icons/sun-bold.svg" alt="Icone Sol" />
+                    <div>
+                      <p>Iluminação</p>
+                      <p>Sol parcial</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/outline-water-drop.svg" alt="Icone Gota D'água" />
+                    <div>
+                      <p>Regar</p>
+                      <p>A cada 3 semanas</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/temp-cold-line.svg" alt="Icone Termometro" />
+                    <div>
+                      <p>Temperatura</p>
+                      <p>15 a 30 ºC</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/plant.svg" alt="Icone Planta" />
+                    <div>
+                      <p>Transplante</p>
+                      <p>1-2 pés</p>
+                    </div>
+                  </div>
+                </div>
+                <button>Alugar R$43.00/mês</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products-container">
+          <h1>Vida longa</h1>
+          <div>
+            <div class="plant-card">
+              <img src="assets/images/plants/espada-de-sao-jorge.jpg" height="256px" alt="Planta Espada-de-são-jorge" />
+              <div class="details">
+                <div class="guia-list">
+                  <h3>Espada-de-são-jorge</h3>
+                  <div>
+                    <img src="assets/icons/sun-bold.svg" alt="Icone Sol" />
+                    <div>
+                      <p>Iluminação</p>
+                      <p>Sol parcial</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/outline-water-drop.svg" alt="Icone Gota D'água" />
+                    <div>
+                      <p>Regar</p>
+                      <p>A cada 3 semanas</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/temp-cold-line.svg" alt="Icone Termometro" />
+                    <div>
+                      <p>Temperatura</p>
+                      <p>15 a 30 ºC</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/plant.svg" alt="Icone Planta" />
+                    <div>
+                      <p>Transplante</p>
+                      <p>1-2 pés</p>
+                    </div>
+                  </div>
+                </div>
+                <button>Alugar R$43.00/mês</button>
+              </div>
+            </div>
+            <div class="plant-card">
+              <img src="assets/images/plants/espada-de-sao-jorge.jpg" height="256px" alt="Planta Espada-de-são-jorge" />
+              <div class="details">
+                <div class="guia-list">
+                  <h3>Espada-de-são-jorge</h3>
+                  <div>
+                    <img src="assets/icons/sun-bold.svg" alt="Icone Sol" />
+                    <div>
+                      <p>Iluminação</p>
+                      <p>Sol parcial</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/outline-water-drop.svg" alt="Icone Gota D'água" />
+                    <div>
+                      <p>Regar</p>
+                      <p>A cada 3 semanas</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/temp-cold-line.svg" alt="Icone Termometro" />
+                    <div>
+                      <p>Temperatura</p>
+                      <p>15 a 30 ºC</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/plant.svg" alt="Icone Planta" />
+                    <div>
+                      <p>Transplante</p>
+                      <p>1-2 pés</p>
+                    </div>
+                  </div>
+                </div>
+                <button>Alugar R$43.00/mês</button>
+              </div>
+            </div>
+            <div class="plant-card">
+              <img src="assets/images/plants/espada-de-sao-jorge.jpg" height="256px" alt="Planta Espada-de-são-jorge" />
+              <div class="details">
+                <div class="guia-list">
+                  <h3>Espada-de-são-jorge</h3>
+                  <div>
+                    <img src="assets/icons/sun-bold.svg" alt="Icone Sol" />
+                    <div>
+                      <p>Iluminação</p>
+                      <p>Sol parcial</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/outline-water-drop.svg" alt="Icone Gota D'água" />
+                    <div>
+                      <p>Regar</p>
+                      <p>A cada 3 semanas</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/temp-cold-line.svg" alt="Icone Termometro" />
+                    <div>
+                      <p>Temperatura</p>
+                      <p>15 a 30 ºC</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/plant.svg" alt="Icone Planta" />
+                    <div>
+                      <p>Transplante</p>
+                      <p>1-2 pés</p>
+                    </div>
+                  </div>
+                </div>
+                <button>Alugar R$43.00/mês</button>
+              </div>
+            </div>
+            <div class="plant-card">
+              <img src="assets/images/plants/espada-de-sao-jorge.jpg" height="256px" alt="Planta Espada-de-são-jorge" />
+              <div class="details">
+                <div class="guia-list">
+                  <h3>Espada-de-são-jorge</h3>
+                  <div>
+                    <img src="assets/icons/sun-bold.svg" alt="Icone Sol" />
+                    <div>
+                      <p>Iluminação</p>
+                      <p>Sol parcial</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/outline-water-drop.svg" alt="Icone Gota D'água" />
+                    <div>
+                      <p>Regar</p>
+                      <p>A cada 3 semanas</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/temp-cold-line.svg" alt="Icone Termometro" />
+                    <div>
+                      <p>Temperatura</p>
+                      <p>15 a 30 ºC</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/plant.svg" alt="Icone Planta" />
+                    <div>
+                      <p>Transplante</p>
+                      <p>1-2 pés</p>
+                    </div>
+                  </div>
+                </div>
+                <button>Alugar R$43.00/mês</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products-container">
+          <h1>Vida longa</h1>
+          <div>
+            <div class="plant-card">
+              <img src="assets/images/plants/espada-de-sao-jorge.jpg" height="256px" alt="Planta Espada-de-são-jorge" />
+              <div class="details">
+                <div class="guia-list">
+                  <h3>Espada-de-são-jorge</h3>
+                  <div>
+                    <img src="assets/icons/sun-bold.svg" alt="Icone Sol" />
+                    <div>
+                      <p>Iluminação</p>
+                      <p>Sol parcial</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/outline-water-drop.svg" alt="Icone Gota D'água" />
+                    <div>
+                      <p>Regar</p>
+                      <p>A cada 3 semanas</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/temp-cold-line.svg" alt="Icone Termometro" />
+                    <div>
+                      <p>Temperatura</p>
+                      <p>15 a 30 ºC</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/plant.svg" alt="Icone Planta" />
+                    <div>
+                      <p>Transplante</p>
+                      <p>1-2 pés</p>
+                    </div>
+                  </div>
+                </div>
+                <button>Alugar R$43.00/mês</button>
+              </div>
+            </div>
+            <div class="plant-card">
+              <img src="assets/images/plants/espada-de-sao-jorge.jpg" height="256px" alt="Planta Espada-de-são-jorge" />
+              <div class="details">
+                <div class="guia-list">
+                  <h3>Espada-de-são-jorge</h3>
+                  <div>
+                    <img src="assets/icons/sun-bold.svg" alt="Icone Sol" />
+                    <div>
+                      <p>Iluminação</p>
+                      <p>Sol parcial</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/outline-water-drop.svg" alt="Icone Gota D'água" />
+                    <div>
+                      <p>Regar</p>
+                      <p>A cada 3 semanas</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/temp-cold-line.svg" alt="Icone Termometro" />
+                    <div>
+                      <p>Temperatura</p>
+                      <p>15 a 30 ºC</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/plant.svg" alt="Icone Planta" />
+                    <div>
+                      <p>Transplante</p>
+                      <p>1-2 pés</p>
+                    </div>
+                  </div>
+                </div>
+                <button>Alugar R$43.00/mês</button>
+              </div>
+            </div>
+            <div class="plant-card">
+              <img src="assets/images/plants/espada-de-sao-jorge.jpg" height="256px" alt="Planta Espada-de-são-jorge" />
+              <div class="details">
+                <div class="guia-list">
+                  <h3>Espada-de-são-jorge</h3>
+                  <div>
+                    <img src="assets/icons/sun-bold.svg" alt="Icone Sol" />
+                    <div>
+                      <p>Iluminação</p>
+                      <p>Sol parcial</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/outline-water-drop.svg" alt="Icone Gota D'água" />
+                    <div>
+                      <p>Regar</p>
+                      <p>A cada 3 semanas</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/temp-cold-line.svg" alt="Icone Termometro" />
+                    <div>
+                      <p>Temperatura</p>
+                      <p>15 a 30 ºC</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/plant.svg" alt="Icone Planta" />
+                    <div>
+                      <p>Transplante</p>
+                      <p>1-2 pés</p>
+                    </div>
+                  </div>
+                </div>
+                <button>Alugar R$43.00/mês</button>
+              </div>
+            </div>
+            <div class="plant-card">
+              <img src="assets/images/plants/espada-de-sao-jorge.jpg" height="256px" alt="Planta Espada-de-são-jorge" />
+              <div class="details">
+                <div class="guia-list">
+                  <h3>Espada-de-são-jorge</h3>
+                  <div>
+                    <img src="assets/icons/sun-bold.svg" alt="Icone Sol" />
+                    <div>
+                      <p>Iluminação</p>
+                      <p>Sol parcial</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/outline-water-drop.svg" alt="Icone Gota D'água" />
+                    <div>
+                      <p>Regar</p>
+                      <p>A cada 3 semanas</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/temp-cold-line.svg" alt="Icone Termometro" />
+                    <div>
+                      <p>Temperatura</p>
+                      <p>15 a 30 ºC</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="assets/icons/plant.svg" alt="Icone Planta" />
+                    <div>
+                      <p>Transplante</p>
+                      <p>1-2 pés</p>
+                    </div>
+                  </div>
+                </div>
+                <button>Alugar R$43.00/mês</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <h1>Contato</h1>
+        <div>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+            since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+          </p>
+          <form action="">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+          </form>
+        </div>
+      </section>
+      <section id="faq" class="faq">
+          <h1>FAQ</h1>
+          <div>asd</div>
+          <div>asd</div>
+          <div>asd</div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="script.js"></script>
 </html>
